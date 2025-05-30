@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="GameBG" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Polytope%20Studio/Lowpoly_Environments/Sources/Textures/PT_Ground_Grass_Green_01.png?fileID=2800000&amp;guid=8c75ba30e5f76df4fb30725e4c9bf38a&amp;type=3#PT_Ground_Grass_Green_01&apos;); justify-content: center; align-self: auto; align-items: center;">
+        <ui:VisualElement name="MainMenuContainer" style="flex-grow: 0; width: 800px; height: 800px; background-color: rgba(0, 0, 0, 0.71); border-left-color: rgb(176, 176, 176); border-right-color: rgb(176, 176, 176); border-top-color: rgb(176, 176, 176); border-bottom-color: rgb(176, 176, 176); border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;">
+            <ui:Label tabindex="-1" text="Main Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MainMenuHeaderLabel" style="font-size: 70px; color: rgb(176, 176, 176); -unity-font-style: bold; -unity-text-align: upper-center; margin-top: 16px;" />
+            <ui:VisualElement name="ButtoContainer" style="flex-grow: 1; align-items: center; justify-content: center;">
+                <ui:Button text="Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Play" class="main-menu-button" />
+                <ui:Button text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Settings" class="main-menu-button" />
+                <ui:Button text="Achievements" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Achievements" class="main-menu-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

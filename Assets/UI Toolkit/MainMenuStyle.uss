@@ -1,0 +1,31 @@
+.Main {
+}
+
+.main-menu-button {
+    font-size: 50px;
+    width: 450px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    -unity-font-style: bold;
+    border-left-color: rgba(255, 255, 255, 0.71);
+    border-right-color: rgba(255, 255, 255, 0.71);
+    border-top-color: rgba(255, 255, 255, 0.71);
+    border-bottom-color: rgba(255, 255, 255, 0.71);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
